@@ -1,0 +1,26 @@
+{
+    "presets" : [
+        ["env", {"modules": false}]
+    ],
+    "compilerOptions": {
+        "lib" : [
+            "es2015",
+            "dom"
+        ],
+        "strict": true,
+        "target": "es2015",
+        "noImplicitAny": true,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "declaration": true,
+        "outDir": "./scripts",
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "files": [
+        "main.ts"
+    ]
+
+}
